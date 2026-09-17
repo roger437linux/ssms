@@ -23,3 +23,9 @@ INNER JOIN sys.indexes i
 ON t.object_id = i.object_id
 WHERE t.name = 'vendas'
 ORDER BY i.name;
+
+
+insert into vendas
+(id_cliente, valor) values
+(1000, 120.00),
+(1001, 333.00);
